@@ -9,12 +9,18 @@ const Body = ({ citas }) => {
   return (
     <div className="body">
       <Titulo />
-      <div className="subtitulos">
-        <Subtitulo texto="CREAR MI CITA" />
-        <Subtitulo texto="ADMINISTRA TUS CITAS" />
-      </div>
+      <div className="container" >
+
+      <div className="one-half column" >
+      <Subtitulo texto="CREAR MI CITA"/>
       <Formulario />
+      </div>
+      <div className="one-half column">
+      <Subtitulo texto="ADMINISTRA TUS CITAS" />
       <Citas citas={citas} />
+      </div>
+      </div>
+
     </div>
   );
 }

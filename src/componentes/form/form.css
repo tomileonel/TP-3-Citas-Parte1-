@@ -1,9 +1,82 @@
 
-.formulario {
+/* .formulario {
     margin-top: 20px; 
-    text-align: center;
+    text-align: justify;
+    
   }
   .formulario div {
     margin-bottom: 10px; 
   }
   
+  .formulario{
+    font-size: large;
+  }
+  
+  .label{
+    display: block;
+    color:white;
+    font-family: sans-serif;
+  }
+
+  input{
+    width: calc(100% - 5px);
+    margin-bottom: 1rem;
+    height: 38px;
+  }
+
+  .input-txt{
+    width: calc(100% - 8px);
+    margin-bottom: 1rem;
+    height: 38px;
+
+  }
+  textarea{
+    width:  calc(100% - 6px);;
+    min-height: 65px;
+    margin-bottom: 1rem;
+  }
+
+  .btn-crear {
+    background-color:#33C3F0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+
+  label {
+    color: white;
+}
+label, legend {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+label {
+    cursor: default;
+}
+
+input[type="date"], input[type="time"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}

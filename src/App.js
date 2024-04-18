@@ -18,6 +18,13 @@ function App() {
       hora: '15:30',
       sintomas: 'Fiebre y tos'
     },
+    {
+      mascota: 'Mario',
+      dueno: 'Bros',
+      fecha: '2024-04-18',
+      hora: '15:30',
+      sintomas: 'Extraña a luigy'
+    }
   ];
 
   return (

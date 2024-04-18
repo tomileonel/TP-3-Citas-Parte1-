@@ -1,4 +1,23 @@
-.titulo {
+/* .titulo {
     text-align: center;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
   }
+
+ */
+
   
+
+  
+ h1, h2 {
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+ }
