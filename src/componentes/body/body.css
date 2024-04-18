@@ -1,0 +1,9 @@
+
+.body {
+    padding: 20px;
+  }
+  .subtitulos {
+    display: flex;
+    justify-content: space-between;
+  }
+  

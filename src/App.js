@@ -1,15 +1,32 @@
 import './App.css';
 import titulo from './componentes/titulo/titulo';
-
-titulo = {
-  texto: 'Este es un texto por default porque no me llegó nada en la prop texto',
-  clase: 'verde',
-}
+import Body from './componentes/body/body';
 
 function App() {
+  const citasEjemplo = [
+    {
+      mascota: 'Luna',
+      dueno: 'Juan',
+      fecha: '2024-04-17',
+      hora: '10:00',
+      sintomas: 'Dolor de estómago'
+    },
+    {
+      mascota: 'Max',
+      dueno: 'María',
+      fecha: '2024-04-18',
+      hora: '15:30',
+      sintomas: 'Fiebre y tos'
+    },
+  ];
+
   return (
-    <titulo texto={titulo.texto} clase={titulo.clase} />
+    <div className="App">
+      <Body citas={citasEjemplo} />
+    </div>
   );
 }
+
+
 
 export default App;
