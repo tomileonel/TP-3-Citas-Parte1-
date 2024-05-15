@@ -5,7 +5,7 @@ import Formulario from '../form/form';
 import Citas from '../citas/citas';
 import './body.css';
 
-const Body = ({ citas }) => {
+const Body = ({ setCitas, citas }) => {
   return (
     <div className="body">
       <Titulo />
@@ -13,7 +13,7 @@ const Body = ({ citas }) => {
 
       <div className="one-half column" >
       <Subtitulo texto="CREAR MI CITA"/>
-      <Formulario />
+      <Formulario setCitas={setCitas} citas={citas} />
       </div>
       <div className="one-half column">
       <Subtitulo texto="ADMINISTRA TUS CITAS" />

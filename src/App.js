@@ -1,9 +1,11 @@
 import './App.css';
 import titulo from './componentes/titulo/titulo';
 import Body from './componentes/body/body';
+import { useState } from 'react';
 
 function App() {
-  const citasEjemplo = [
+
+  const [citas, setCitas] = useState([
     {
       mascota: 'Luna',
       dueno: 'Juan',
@@ -25,11 +27,13 @@ function App() {
       hora: '15:30',
       sintomas: 'Extraña a luigy'
     }
-  ];
+  ]
+)
+  
 
   return (
     <div className="App">
-      <Body citas={citasEjemplo} />
+      <Body setCitas={setCitas} citas={citas} />
     </div>
   );
 }
