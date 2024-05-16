@@ -1,5 +1,4 @@
 import './App.css';
-import titulo from './componentes/titulo/titulo';
 import Body from './componentes/body/body';
 import { useState } from 'react';
 
@@ -7,6 +6,7 @@ function App() {
 
   const [citas, setCitas] = useState([
     {
+      date: '1',
       mascota: 'Luna',
       dueno: 'Juan',
       fecha: '2024-04-17',
@@ -14,6 +14,7 @@ function App() {
       sintomas: 'Dolor de estómago'
     },
     {
+      date: '2',
       mascota: 'Max',
       dueno: 'María',
       fecha: '2024-04-18',
@@ -21,6 +22,7 @@ function App() {
       sintomas: 'Fiebre y tos'
     },
     {
+      date: '3',
       mascota: 'Mario',
       dueno: 'Bros',
       fecha: '2024-04-18',

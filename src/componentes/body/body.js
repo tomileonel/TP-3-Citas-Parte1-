@@ -17,7 +17,7 @@ const Body = ({ setCitas, citas }) => {
       </div>
       <div className="one-half column">
       <Subtitulo texto="ADMINISTRA TUS CITAS" />
-      <Citas citas={citas} />
+      <Citas setCitas={setCitas} citas={citas} />
       </div>
       </div>
 
