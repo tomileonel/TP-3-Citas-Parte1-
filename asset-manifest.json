@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.15cb5b4f.css",
-    "main.js": "/react-gh-pages/static/js/main.9846e8c5.js",
-    "static/js/453.938e3710.chunk.js": "/react-gh-pages/static/js/453.938e3710.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.15cb5b4f.css.map": "/react-gh-pages/static/css/main.15cb5b4f.css.map",
-    "main.9846e8c5.js.map": "/react-gh-pages/static/js/main.9846e8c5.js.map",
-    "453.938e3710.chunk.js.map": "/react-gh-pages/static/js/453.938e3710.chunk.js.map"
+    "main.css": "/TP-3-Citas-Parte1-.github.io/static/css/main.15cb5b4f.css",
+    "main.js": "/TP-3-Citas-Parte1-.github.io/static/js/main.0fed7468.js",
+    "static/js/453.938e3710.chunk.js": "/TP-3-Citas-Parte1-.github.io/static/js/453.938e3710.chunk.js",
+    "index.html": "/TP-3-Citas-Parte1-.github.io/index.html",
+    "main.15cb5b4f.css.map": "/TP-3-Citas-Parte1-.github.io/static/css/main.15cb5b4f.css.map",
+    "main.0fed7468.js.map": "/TP-3-Citas-Parte1-.github.io/static/js/main.0fed7468.js.map",
+    "453.938e3710.chunk.js.map": "/TP-3-Citas-Parte1-.github.io/static/js/453.938e3710.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15cb5b4f.css",
-    "static/js/main.9846e8c5.js"
+    "static/js/main.0fed7468.js"
   ]
 }
